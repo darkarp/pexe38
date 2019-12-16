@@ -135,6 +135,7 @@ if __name__ == "__main__":
           url="http://www.pexe38.org/",
           license="MIT/X11",
           install_requires=["cachetools", "pefile"],
+          setup_requires=["cachetools", "pefile"],
           platforms="Windows",
           download_url=f"https://github.com/darkarp/pexe37/archive/v{pexe37.__version__}.zip",
 
