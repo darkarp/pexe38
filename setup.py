@@ -137,7 +137,7 @@ if __name__ == "__main__":
           install_requires=["cachetools", "pefile"],
           setup_requires=["cachetools", "pefile"],
           platforms="Windows",
-          download_url=f"https://github.com/darkarp/pexe37/archive/v{pexe37.__version__}.zip",
+          download_url=f"https://github.com/darkarp/pexe38/archive/v{pexe38.__version__}.zip",
 
           classifiers=[
               "Development Status :: 4 - Beta",
