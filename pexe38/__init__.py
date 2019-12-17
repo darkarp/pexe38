@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """pexe38 package
 """
-__version__ = '1.2'
+__version__ = '1.3'
 
 from .patch_distutils import patch_distutils
 
