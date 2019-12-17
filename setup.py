@@ -134,11 +134,9 @@ if __name__ == "__main__":
           author_email="marionascimento@itsec.bz",
           url="http://www.pexe38.org/",
           license="MIT/X11",
-          install_requires=["cachetools", "pefile"],
-          setup_requires=["cachetools", "pefile"],
           platforms="Windows",
           download_url=f"https://github.com/darkarp/pexe38/archive/v{pexe38.__version__}.zip",
-
+          install_requires = ["pefile", "cachetools"],
           classifiers=[
               "Development Status :: 4 - Beta",
               "Environment :: Console",
@@ -162,6 +160,7 @@ if __name__ == "__main__":
               'console_scripts': ['build_exe = pexe38.build_exe:main'],
               },
           interpreters = interpreters,
-          py_modules=['zipextimporter'],
+          py_modules=['zipextimporter', 'pefile', 'ordlookup', 'cachetools'],
           packages=['pexe38'],
+          include_package_data=True
           )
